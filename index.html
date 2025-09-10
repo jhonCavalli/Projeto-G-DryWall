@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DryWall & Gesso — Soluções em Acabamento</title>
+  <meta name="description" content="Forros, paredes de drywall, sancas e iluminação. Orçamento rápido e garantia de qualidade.">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header fixo -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">DryGesso</a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#sobre" class="nav-link">Sobre a Empresa</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+      <button class="cta-header" id="cta-header">Solicite Orçamento</button>
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero com parallax -->
+  <section id="inicio" class="hero" data-parallax>
+    <div class="hero-overlay">
+      <div class="container hero-content">
+        <h1 class="hero-title">Acabamento em Drywall & Gesso<br><span>Rápido, limpo e com garantia técnica</span></h1>
+        <p class="hero-sub">Transformamos ambientes com acabamento de alto padrão — residenciais e comerciais.</p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn btn-primary">Solicite um Orçamento</a>
+          <a href="#servicos" class="btn btn-ghost">Ver Serviços</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre a Empresa -->
+  <section id="sobre" class="section about section--fade">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2>Sobre a DryGesso</h2>
+        <p>Com anos de experiência em obras residenciais e corporativas, nossa equipe une técnica e organização para entregar projetos no prazo e com limpeza. Trabalhamos com materiais certificados e damos garantia técnica nos serviços.</p>
+        <ul>
+          <li>Equipe qualificada</li>
+          <li>Materiais de primeira linha</li>
+          <li>Orçamento transparente</li>
+        </ul>
+      </div>
+      <div class="about-image" aria-hidden="true">
+        <!-- imagem ilustrativa: substitua pelo seu arquivo -->
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=9d0c2e7b8c8b0a2c" alt="Exemplo de forro em gesso">
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="section services section--fade">
+    <div class="container">
+      <h2 class="section-title">Nossos Serviços</h2>
+      <p class="section-sub">Soluções completas em gesso e drywall para cada etapa do seu projeto.</p>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <h3>Forros de Gesso</h3>
+          <p>Forros com acabamento liso, com opções de rebaixamento e isolamento acústico.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Paredes de Drywall</h3>
+          <p>Leves, rápidas de instalar e com ótimo acabamento para divisórias e reformas.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Sancas & Iluminação</h3>
+          <p>Projetos personalizados com iluminação indireta e pontos de LED integrados.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Revestimento 3D</h3>
+          <p>Texturas e revestimentos 3D para destaque em paredes e áreas de recepção.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section contact section--fade">
+    <div class="container contact-grid">
+      <div class="contact-form">
+        <h2>Solicite um Orçamento</h2>
+        <p>Preencha o formulário ou entre em contato diretamente por telefone.</p>
+
+        <!-- Formulário (apenas front-end; integrar backend/serviço de emails) -->
+        <form id="formContato" action="#" method="post" novalidate>
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" required placeholder="Seu nome completo">
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="seu@exemplo.com">
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Descreva seu projeto e medidas (se souber)"></textarea>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            <a href="tel:+5511999999999" class="btn btn-ghost">Ligar: (11) 99999-9999</a>
+          </div>
+        </form>
+        <p class="small">Ou envie um WhatsApp: <a href="https://wa.me/5511999999999" target="_blank" rel="noopener">(11) 99999-9999</a></p>
+      </div>
+
+      <aside class="contact-info" aria-label="Informações de contato">
+        <h3>Informações</h3>
+        <p><strong>Endereço:</strong> Rua Exemplo, 123 — Cidade, Estado</p>
+        <p><strong>Telefone:</strong> (11) 99999-9999</p>
+        <p><strong>Email:</strong> contato@drygesso.com.br</p>
+
+        <div class="trust">
+          <p><strong>Atendimento Rápido</strong></p>
+          <p>Garantia técnica de 12 meses em serviços estruturais.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="anoAtual"></span> DryGesso — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
