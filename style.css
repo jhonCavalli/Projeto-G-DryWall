@@ -196,17 +196,97 @@ footer div i:hover {
 .section--fade.in-view{opacity:1;transform:none}
 
 /* Responsive */
-@media (max-width:1024px){
+@media screen and (max-width:1024px){
   .services-grid{grid-template-columns:repeat(2,1fr)}
   .about-grid{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr}
   .hero-title{font-size:1.75rem}
 }
-@media (max-width:640px){
+
+@media screen and (max-width:768px) {
+  .nav{
+    display:flex;
+    .nav-link {
+      display:none;
+
+    }
+  }
+  .logo {
+    font-size: 1rem;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+  .logo-image {
+    position: relative;
+    margin: 2px 10px 10px 2px;
+    width: 60px;
+    height: 60px;
+    margin-left: 1.2rem;
+    
+  }
+}
+
+@media screen and (max-width:750px) {
+  .logo {
+    font-size: 1rem;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+  .logo-image {
+    position: relative;
+    margin: 2px 10px 10px 2px;
+    width: 60px;
+    height: 60px;
+    margin-left: 1.2rem;
+    
+  }
+}
+
+@media screen and (max-width:734px) {
+     .logo {
+    font-size: 0.9rem;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  .logo-image {
+    width: 50px;
+    height: 50px;
+    margin-left: 0.5rem;
+  }
+}
+
+
+
+@media screen and (max-width:640px){
   .nav{display:none}
   .menu-toggle{display:block;margin-left:auto}
   .hero{height:78vh;min-height:520px;margin-top:64px}
   .services-grid{grid-template-columns:1fr}
+}
+
+@media screen and (max-width:412px) {
+  .nav {
+    display:none;
+  .menu-toggle {
+    display:block;
+    margin-left:auto;
+    }  
+  }
+
+  .logo {
+    font-size: 1rem;
+    margin-left: 9px;
+    margin-right: 9px;
+    .logo-image {
+    position: relative;
+    margin: 2px 10px 10px 2px;
+    width: 60px;
+    height: 60px;
+    margin-left: 1.2rem;
+    
+   }
+  }
+  
 }
 
 @media screen and (max-width:390px) {
@@ -214,15 +294,16 @@ footer div i:hover {
     font-size: 1rem;
     margin-left: 9px;
     margin-right: 9px;
-  }
-  .logo-image {
+    .logo-image {
     position: relative;
     margin: 2px 10px 10px 2px;
     width: 60px;
     height: 60px;
     margin-left: 1.2rem;
     
+   }
   }
+  
 }
 
 @media screen and (max-width:386px) {
@@ -230,16 +311,17 @@ footer div i:hover {
     font-size: 1rem;
     margin-left: 9px;
     margin-right: 9px;
-  }
-
-  .logo-image {
+    .logo-image {
     position: relative;
     margin: 2px 10px 10px 2px;
     width: 60px;
     height: 60px;
     margin-left: 1.2rem;
     
+    }
   }
+
+  
 }
 
 @media screen and (max-width:370px) {
@@ -247,12 +329,13 @@ footer div i:hover {
     font-size: 0.9rem;
     margin-left: 7px;
     margin-right: 7px;
-  }
-  .logo-image {
+     .logo-image {
     width: 50px;
     height: 50px;
     margin-left: 0.5rem;
+    }
   }
+ 
 }
 
 @media screen and (max-width:372px) {
@@ -260,12 +343,34 @@ footer div i:hover {
     font-size: 0.9rem;
     margin-left: 7px;
     margin-right: 7px;
-  }
-  .logo-image {
+    .logo-image {
     width: 50px;
     height: 50px;
     margin-left: 0.5rem;
+    }
   }
+  
+}
+
+@media screen and (max-width:360px) {
+  .nav{
+    display:none;
+    .menu-toggle{
+    display:block;
+    margin-left:auto;
+    }
+  }
+  .logo {
+    font-size: 0.8rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    .logo-image {
+    width: 40px;
+    height: 40px;
+    margin-left: 0.3rem;
+    }
+  }
+  
 }
 
 @media screen and (max-width:354px) {
@@ -273,12 +378,13 @@ footer div i:hover {
     font-size: 0.8rem;
     margin-left: 5px;
     margin-right: 5px;
-  }
-  .logo-image {
+    .logo-image {
     width: 40px;
     height: 40px;
     margin-left: 0.3rem;
+    }
   }
+  
 }
 
 @media screen and (max-width:340px) {
@@ -286,12 +392,13 @@ footer div i:hover {
     font-size: 0.7rem;
     margin-left: 3px;
     margin-right: 3px;
-  }
-  .logo-image {
+    .logo-image {
     width: 35px;
     height: 35px;
     margin-left: 0.2rem;
+    }
   }
+  
 }
 
 @media screen and (max-width:318px) {
@@ -299,23 +406,55 @@ footer div i:hover {
     font-size: 0.6rem;
     margin-left: 2px;
     margin-right: 2px;
-  }
-  .logo-image {
+    .logo-image {
     width: 30px;
     height: 30px;
     margin-left: 0.1rem;
+    } 
   }
 }
 
+@media screen and (max-width:320px) {
+
+  .nav{
+    display:none;
+    .menu-toggle{
+    display:block;
+    margin-left:auto;
+    }
+  }
+
+  .logo {
+    font-size: 0.6rem;
+    margin-left: 2px;
+    margin-right: 2px;
+    .logo-image {
+    width: 30px;
+    height: 30px;
+    margin-left: 0.1rem;
+    } 
+  }
+  
+} 
+
 @media screen and (max-width:302px) {
+  .nav {
+    display:none;
+    .menu-toggle {
+    display:block;
+    margin-left:auto;
+    }
+  }
+
   .logo {
     font-size: 0.5rem;
     margin-left: 1px;
     margin-right: 1px;
-  }
-  .logo-image {
+    .logo-image {
     width: 25px;
     height: 25px;
     margin-left: 0.05rem;
+    }
   }
+  
 }
